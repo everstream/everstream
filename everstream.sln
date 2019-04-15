@@ -7,6 +7,11 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Everstream", "Everstream\Ev
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Everstream.PostgreSQL", "Everstream.PostgreSQL\Everstream.PostgreSQL.fsproj", "{45ECA367-329F-4564-8B6C-59F235962E56}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{627E8D18-C6B1-4A3E-B126-FD10CAF552DC}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.build.props = Directory.build.props
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		debug|Any CPU = debug|Any CPU

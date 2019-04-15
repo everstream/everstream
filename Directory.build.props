@@ -1,0 +1,7 @@
+<!-- Ensure there's no build artifacts inside the solution directory -->
+<Project>
+  <PropertyGroup>
+		<BaseOutputPath>$(HOMEDRIVE)$(HOMEPATH)$(HOME)/.vsbuild/$(VisualStudioVersion)/cnet-akeneo/$(MSBuildProjectName)/bin/</BaseOutputPath>
+		<BaseIntermediateOutputPath>$(HOMEDRIVE)$(HOMEPATH)$(HOME)/.vsbuild/$(VisualStudioVersion)/cnet-akeneo/$(MSBuildProjectName)/obj/</BaseIntermediateOutputPath>
+	</PropertyGroup>
+</Project>
