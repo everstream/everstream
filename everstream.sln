@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Everstream", "Everstream\Everstream.fsproj", "{2B92242C-CB2D-4916-82FC-26FF38961F03}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Everstream.PostgreSQL", "Everstream.PostgreSQL\Everstream.PostgreSQL.fsproj", "{45ECA367-329F-4564-8B6C-59F235962E56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		debug|Any CPU = debug|Any CPU
+		release|Any CPU = release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B92242C-CB2D-4916-82FC-26FF38961F03}.debug|Any CPU.ActiveCfg = debug|Any CPU
+		{2B92242C-CB2D-4916-82FC-26FF38961F03}.debug|Any CPU.Build.0 = debug|Any CPU
+		{2B92242C-CB2D-4916-82FC-26FF38961F03}.release|Any CPU.ActiveCfg = release|Any CPU
+		{2B92242C-CB2D-4916-82FC-26FF38961F03}.release|Any CPU.Build.0 = release|Any CPU
+		{45ECA367-329F-4564-8B6C-59F235962E56}.debug|Any CPU.ActiveCfg = debug|Any CPU
+		{45ECA367-329F-4564-8B6C-59F235962E56}.debug|Any CPU.Build.0 = debug|Any CPU
+		{45ECA367-329F-4564-8B6C-59F235962E56}.release|Any CPU.ActiveCfg = release|Any CPU
+		{45ECA367-329F-4564-8B6C-59F235962E56}.release|Any CPU.Build.0 = release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DAB4B22-B104-4A15-BF7D-24954B462AAF}
+	EndGlobalSection
+EndGlobal

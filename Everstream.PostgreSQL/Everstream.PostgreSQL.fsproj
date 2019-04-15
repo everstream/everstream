@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Eversream.PostgreSQL</RootNamespace>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Configurations>debug;release</Configurations>
+    <OutputType>Exe</OutputType>
+    <!--<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>everstream.org</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Company>everstream</Company>
+    <Description>Minimalistic PostgreSQL backed idiomatic F# event store</Description>
+    <Copyright>Copyright ©2019 everstream.org</Copyright>
+    <PackageProjectUrl>http://everstream.org</PackageProjectUrl>
+    <Product>everstream</Product>
+    <RepositoryUrl>https://github.com/everstream/everstream</RepositoryUrl>
+    <PackageIconUrl>https://raw.github.com/everstream/gists/master/icon.png</PackageIconUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>-->
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Everstream.PostgreSQL.nuspec" />
+    <Compile Include="Utils.fs" />
+    <Compile Include="Db.fs" />
+    <Compile Include="Store.fs" />
+    <Compile Include="Tests\Static.fs" />
+    <Compile Include="Tests\DbTests.fs" />
+    <Compile Include="Tests\Main.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Expecto" Version="8.10.0" />
+    <PackageReference Include="Npgsql" Version="4.0.6" />
+    <PackageReference Include="Npgsql.FSharp" Version="1.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Everstream\Everstream.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.6.2" />
+  </ItemGroup>
+
+</Project>

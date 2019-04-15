@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Everstream</RootNamespace>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Configurations>debug;release</Configurations>
+    <OutputType>Exe</OutputType>
+    <!--<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Luis Ferrao</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Company>everstream</Company>
+    <Description>Dead simple idiomatic F# event store</Description>
+    <Copyright>Copyright ©2019 Luis Ferrao</Copyright>
+    <PackageProjectUrl>http://everstream.org</PackageProjectUrl>
+    <Product>everstream</Product>
+    <RepositoryUrl>https://github.com/everstream/everstream</RepositoryUrl>
+    <PackageIconUrl>https://raw.github.com/everstream/gists/master/icon.png</PackageIconUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>-->
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Everstream.nuspec" />
+    <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="Domain.fs" />
+    <Compile Include="Query.fs" />
+    <Compile Include="Serialization.fs" />
+    <Compile Include="Map.fs" />
+    <Compile Include="PersistedEvent.fs" />
+    <Compile Include="EventStore.fs" />
+    <Compile Include="MemoryStore.fs" />
+    <Compile Include="EventProxy.fs" />
+    <Compile Include="Default.fs" />
+    <Compile Include="Tests\Utils.fs" />
+    <Compile Include="Tests\PersistedEventTests.fs" />
+    <Compile Include="Tests\MemoryStoreTests.fs" />
+    <Compile Include="Tests\EventProxyTests.fs" />
+    <Compile Include="Tests\Main.fs" />
+  </ItemGroup>
+
+  <ItemGroup />
+
+  <ItemGroup>
+    <PackageReference Include="Expecto" Version="8.10.0" />
+    <PackageReference Include="Microsoft.FSharpLu.Json" Version="0.10.31" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.6.2" />
+  </ItemGroup>
+
+</Project>
