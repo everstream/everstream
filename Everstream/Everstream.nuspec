@@ -8,13 +8,13 @@
     <owners>$author$</owners>
     <description>$description$</description>-->
     <id>Everstream</id>
-    <version>1.9.3</version>
+    <version>1.9.5</version>
     <authors>everstream.org</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <iconUrl>https://raw.github.com/everstream/gists/master/icon.png</iconUrl>
-    <summary>Minimalistic idiomatic F# event store</summary>
-    <description>Minimalistic idiomatic F# event store</description>
+    <summary>Minimalist idiomatic F# event store</summary>
+    <description>Minimalist idiomatic F# event store</description>
     <copyright>Copyright ©2019 everstream.org</copyright>
     <tags>eventsourcing eventsource events cqrs fsharp ddd</tags>
     <projectUrl>http://everstream.org</projectUrl>

@@ -2,21 +2,20 @@
 <package >
   <metadata>
     <id>Everstream.PostgreSQL</id>
-    <version>1.9.3</version>
+    <version>1.9.5</version>
     <authors>everstream.org</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <iconUrl>https://raw.github.com/everstream/gists/master/icon.png</iconUrl>
-    <summary>Minimalistic idiomatic Postgres-backed F# event store</summary>
-    <description>Minimalistic idiomatic Postgres-backed F# event store</description>
+    <summary>Minimalist idiomatic Postgres-backed F# event store</summary>
+    <description>Minimalist idiomatic Postgres-backed F# event store</description>
     <copyright>Copyright ©2019 everstream.org</copyright>
     <projectUrl>http://everstream.org</projectUrl>
     <tags>eventsourcing eventsource events cqrs fsharp ddd postgres postgresql sql</tags>
     <dependencies>
       <group targetFramework=".NETCoreApp2.2">
-        <dependency id="Everstream" version="1.9.3" exclude="Build,Analyzers" />
-        <dependency id="Npgsql" version="4.0.6" exclude="Build,Analyzers" />
-        <dependency id="Npgsql.FSharp" version="1.4.0" exclude="Build,Analyzers" />
+        <dependency id="Everstream" version="1.9.5" exclude="Build,Analyzers" />
+        <dependency id="Npgsql.FSharp" version="1.9.0" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
