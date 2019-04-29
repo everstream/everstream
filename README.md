@@ -31,7 +31,7 @@ type EventStore =
         Append : PersistedEvent option -> EventData list -> Stream -> Async<PersistedEvent list>
     }
 ```
-You may be thinking _"hold on, that is pretty simple, but what are these query paramters hiding"_.
+You may be thinking _"hold on, that is pretty simple, but what are these query paramters hiding"_.  
 Fair enough, here they are:
 ```fsharp
 type Stream =
