@@ -10,7 +10,7 @@ Dead simple event store written in F#, perhaps best described as barebones, or b
 | Package | Description | NuGet
 |---|---|---|
 | Everstream.PostgreSQL | PostgreSQL-backed event store | [![NuGet](https://img.shields.io/nuget/v/Everstream.PostgreSQL.svg?style=flat)](https://www.nuget.org/packages/Everstream.PostgreSQL/) |
-| Everstream | API definition (included above) | [![NuGet](https://img.shields.io/nuget/v/Everstream.svg?style=flat)](https://www.nuget.org/packages/Everstream/) |
+| Everstream | API definition (you don't need this) | [![NuGet](https://img.shields.io/nuget/v/Everstream.svg?style=flat)](https://www.nuget.org/packages/Everstream/) |
 
 ## The API
 
