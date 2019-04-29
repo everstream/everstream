@@ -1,5 +1,7 @@
+<p align="center">
 [![everstream logo](https://raw.github.com/everstream/gists/master/everstream.png)](https://everstream.org)
 <!--# everstream-->
+</p>
 
 Dead simple event store written in F#, perhaps best described as barebones, or beginner-friendly, but in no way intended to compete with options such as the battle-tested [jet/equinox](https://github.com/jet/equinox/blob/master/README.md) or the increasingly compatible [Dzoukr/CosmoStore](https://github.com/Dzoukr/CosmoStore/blob/master/README.md), the latter of which also works with PostgreSQL now. Definitely look into those for something more tried and true.
 
