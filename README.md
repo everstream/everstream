@@ -1,4 +1,4 @@
-[![everstream logo](https://raw.github.com/everstream/gists/master/everstream.png)](https://everstream.org)
+[![everstream logo](https://raw.github.com/everstream/gists/master/everstream.png)](http://everstream.org)
 <!--# everstream-->
   
 <br/>
