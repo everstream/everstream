@@ -3,7 +3,7 @@
   
 <br/>
 
-Dead simple Postgres-backed event store written in F# perhaps best described as barebones, or beginner-friendly, but in no way intended to compete with options such as the battle-tested [jet/equinox](https://github.com/jet/equinox/blob/master/README.md) or the increasingly compatible [Dzoukr/CosmoStore](https://github.com/Dzoukr/CosmoStore/blob/master/README.md), the latter of which also works with PostgreSQL now. Definitely look into those for something more tried and true.
+Postgres backed event store written in F# perhaps best described as barebones, or beginner-friendly, but in no way intended to compete with options such as the battle-tested [jet/equinox](https://github.com/jet/equinox/blob/master/README.md) or the increasingly compatible [Dzoukr/CosmoStore](https://github.com/Dzoukr/CosmoStore/blob/master/README.md), the latter of which also works with PostgreSQL now. Definitely look into those for something more tried and true.
 
 ### For those who download first and ask questions later
 
