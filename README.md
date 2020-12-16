@@ -70,4 +70,4 @@ This is not meant to be used by Fortune 500 companies, the stability of the API 
 
 ## Examples
 
-_I will try to add some examples asap, feel free to tweet [@fishyrock](https://twitter.com/fishyrock) and nag me out of my procrastination zone..._
+_I will try to add some examples asap, feel free to tweet [@luislikelewis](https://twitter.com/luislikeIewis) and nag me out of my procrastination zone..._
